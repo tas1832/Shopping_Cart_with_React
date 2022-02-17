@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;1,500&family=Raleway:wght@200&display=swap");
+
+h2 {
+  margin: 1rem;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: nunito, sans-serif;
+}
+
+/* navbar */
+.nav-bar {
+  height: 70px;
+  background: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4rem;
+}
+
+#nav-brand {
+  font-size: 2rem;
+  padding: 1rem;
+  color: whitesmoke;
+  /* text-decoration: none; */
+}
+
+.nav-bag {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color: whitesmoke;
+}
+.bag-quantity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1.5rem;
+  width: 1.5em;
+  border-radius: 50%;
+  background-color: white;
+  margin-bottom: -0.5rem;
+  margin-left: 0.3rem;
+}
+.bag-quantity span {
+  color: red;
+  font-size: 1rem;
+  font-weight: 600;
+  align-content: center;
+  font-weight: 700;
+}
+
+/* Not Found Page */
+.not-found {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: grey;
+  min-height: 88vh;
+}
+.not-found h2 {
+  font-size: 55px;
+}
+.not-found p {
+  font-size: 20px;
+}
+
+/* styling for the Card */
+/* card-container */
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  height: 700px;
+  margin-bottom: 4rem;
+}
+/* card body */
+.card-body {
+  height: 600px;
+  overflow: hidden;
+}
+/* product image size */
+.product-image {
+  padding: 2rem;
+  height: 20rem;
+  width: 20rem;
+}
+.card-footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* displaying cards */
+.products-row {
+  margin: 1rem 2rem;
+  display: flex;
+  flex-direction: row;
+}
+/* cart Screen */
+.cart-container {
+  padding: 2rem 4rem;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+/* .cart-container p {
+  margin-bottom: 0%;
+} */
+.cart-container h2 {
+  font-weight: 400;
+  font-size: 2rem;
+  text-align: center;
+}
+.cart-container .titles,
+.cart-item-row {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 2.5fr 1.5fr 1.5fr 1.5fr;
+  column-gap: 1rem;
+  align-items: center;
+  align-items: center;
+}
+.cart-item-row {
+  border-bottom: 1px solid lightgrey;
+}
+.cart-container .titles h3 {
+  margin-top: 5%;
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-align: center;
+}
+.cart-item {
+  display: grid;
+  grid-template-columns: 3fr 3fr;
+  align-items: center;
+}
+.cart-item img {
+  padding: 1rem;
+  height: 10rem;
+  width: 10rem;
+}
+.cart-basic-info {
+  text-align: center;
+}
+
+.cart-basic-info h4 {
+  font-weight: 200;
+  font-size: 1rem;
+}
+
+.cart-basic-info button {
+  border: none;
+  font-size: 0.8rem;
+}
+
+.item-price-info,
+.item-total {
+  text-align: center;
+  align-items: center;
+}
+.item-quantity-info {
+  margin-left: 25%;
+  margin-right: 25%;
+
+  border: 1px solid grey;
+  border-radius: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 0.5rem;
+  text-align: center;
+  align-items: center;
+}
+.item-quantity-info button {
+  border: none;
+  background-color: white;
+}
+.cart-summary {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.clear-cart {
+  font-size: 1rem;
+  font-weight: 300;
+  max-width: fit-content;
+}
+.cart-checkout {
+  padding: 1rem;
+}
+.subtotal {
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.checkout {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.cart-checkout p {
+  color: grey;
+}
+.continue-shopping,
+.start-shopping {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 1rem;
+}
+.empty-cart {
+  margin: 2rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Search Box */
+.search-box {
+  display: flex;
+  justify-content: center;
+}
+/* product-view (ProductScreen)*/
+.go-back {
+  margin: 1rem;
+}
+.product-screen {
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+}
