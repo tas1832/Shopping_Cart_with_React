@@ -4,7 +4,8 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 export const productsApi = createApi({
   reducerPath: "productsApi",
   baseQuery: fetchBaseQuery({
-    baseUrl: "https://git.heroku.com/best-shop-by-tasnia.git",
+    // baseUrl: "https://git.heroku.com/best-shop-by-tasnia.gitnpm",
+    baseUrl: "http://localhost:8000",
   }),
   endpoints: (builder) => ({
     getAllProducts: builder.query({
